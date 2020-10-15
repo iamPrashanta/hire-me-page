@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:display=swap');
+
+body {
+    background: rgb(0, 3, 36);
+    background: linear-gradient(90deg, rgba(9, 36, 121, 0.7) 0%, rgba(0, 212, 255, 0.7) 100%);
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.element {
+    text-align: center;
+    margin: auto;
+    padding: 0 40px;
+    max-width: 700px;
+    height: auto;
+}
+a{
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+a:hover{
+    text-decoration: underline;
+    color: #e7f2f5;
+}
+/* span{
+    font-weight: bold;
+    background: -webkit-linear-gradient(#F79431, white, #118407);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+h1,
+p {
+    color: white;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 30px;
+    word-spacing: 0px;
+    margin: 90px 0 15px;
+}
+
+p {
+    margin: 20px 0 50px 0;
+    line-height: 24px;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+input[type="button"] {
+    background-color: #eb8d22;
+    height: auto;
+    width: auto;
+    outline: none;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 25px 0 0 0;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(25, 109, 124);
+    color: rgb(243, 241, 239);
+}
+
+#homepage {
+    text-align: center;
+    background-color: rgb(24, 36, 61);
+    height: auto;
+    width: auto;
+    outline: none;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#homepage:hover {
+    background-color: rgb(34, 83, 67);
+    color: rgb(224, 203, 178);
+}
+
+img {
+    width: 100%;
+    max-width: 630px;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+@media only screen and (min-width:630px) {
+    h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    input[type="button"] {
+        font-size: 16px;
+    }
+
+    #homepage{
+        font-size: 16px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
